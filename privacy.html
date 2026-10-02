@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Home Calendar privacy policy</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; line-height: 1.5; color: #1b1e22; }
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p>Last updated: October 2, 2026</p>
+<p>Home Calendar is a personal Raspberry Pi display used only by the owner. This policy describes the only Google data it requests.</p>
+<h2>Data used</h2>
+<p>The app requests read-only access to Google Calendar (<code>calendar.readonly</code>). It reads event titles, times, locations, and calendar names so they can be shown on the home screen.</p>
+<h2>How it is stored</h2>
+<p>Events are fetched on the Pi and kept in memory for a few minutes so the screen can refresh. A Google OAuth token is stored only on that Pi so the display can keep reading the calendar. Nothing is sent to an advertising network, analytics service, or other company.</p>
+<h2>Sharing</h2>
+<p>Calendar data is not sold, rented, or shared. It is shown on the household display and can be spoken aloud on that display’s speakers if the owner turns announcements on.</p>
+<h2>Retention and deletion</h2>
+<p>Disconnect the app in Google Account, Security, Third-party access, and delete <code>token.json</code> on the Pi. That stops further access. Cached events are discarded when the Pi restarts.</p>
+<h2>Contact</h2>
+<p>Questions go to the Gmail address listed as the support email on the Google consent screen.</p>
+<p><a href="index.html">Home</a></p>
+</body>
+</html>
